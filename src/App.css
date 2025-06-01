@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+ 
+body{
+  background-color: lavenderblush;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15%;
+}
+.container {
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    width: 500px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: lavender;
+    color: #9e66c6;
+  }
+
+.head {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 12px; 
+    text-align: center;
+  }
+input{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 1rem; 
+  font-size: 16px;
+}
+input:hover{
+  background-color: #e4dce9;
+}
+input::focus{
+  border: 0px;
+  background-color: aliceblue;
+}
+
